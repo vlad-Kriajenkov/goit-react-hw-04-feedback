@@ -1,7 +1,6 @@
 import { ContainerStatistics, ListStat, ItemStat } from "./Statistics.styled";
 const Statistics = ({ state }) => {
   const { good, neutral, bad, total, positivePercentage } = state;
-
   return (
     <ContainerStatistics>
       <ListStat>
